@@ -1,5 +1,5 @@
 ---
-author: [Sean Wang](https://www.mpiwg-berlin.mpg.de/users/swang)
+author: Sean Wang, swang@mpiwg-berlin.mpg.de
 ---
 
 The file `FetchTextFromRISE.py` is composed by [Calvin Yeh](https://www.mpiwg-berlin.mpg.de/users/cyeh) and contains the Python code for fetching the texts in RISE's **MPIWG - 哈佛燕京** collection. You can also modify it to fetch other texts made available via RISE, once you familiarize yourself with the [SHINE API](https://rise.mpiwg-berlin.mpg.de/pages/doc_for_developers) protocol.
