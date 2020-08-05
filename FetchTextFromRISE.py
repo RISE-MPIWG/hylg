@@ -2,8 +2,8 @@
 import requests
 import os
 
-# 0dbc904a-ffe9-41c4-866c-7a66434972c1 is the uuid for 哈佛燕京 collection
-# 750 is a random number for avoiding the limitation of pagination
+# 6000 is a large number to make sure we get all the components of a collection. Please do note that RISE also has a pagination feature,
+# which can be implemented by clients if they wish.
 per_page = 6000
 
 # getting the list of collections that the user has access to:
