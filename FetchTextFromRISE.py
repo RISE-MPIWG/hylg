@@ -18,10 +18,12 @@ for collection in collections:
       idx += 1
       print(collection)
 
-# we pick a collection by its index
-collection_index = 1
-collection = collections[collection_index]
+# picking a collection by its index
+# collection_index = 1
+# collection = collections[collection_index]
 
+results = list(filter(lambda collection: collection['name'] == 'MPIWG - 哈佛燕京圖書館藏珍稀方志', collections))
+collection = results[0]
 print(collection['uuid'])
 collection_uuid = collection['uuid']
 
